@@ -1,0 +1,20 @@
+REM Knockoff Rubber Ducky Script which is 6 times lesser than original rubber ducky at just 300 rupees that too self made
+REM Author: Aiman Shariff
+
+REM Original Purpose: Demonstrating a harmless prank using DuckyScript for educational purposes.
+REM Reverse Engineering: This sample script is for educational purposes only.
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 1000
+STRING echo Changing console color to green...
+ENTER
+DELAY 1000
+STRING color 02
+ENTER
+DELAY 1000
+STRING exit
+ENTER
