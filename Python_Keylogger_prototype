@@ -6,10 +6,12 @@ print('''
 ███████ ██   ██ ██   ██ ██   ██ ██ ██      ██    ''') 
 
 #AUTHOR:AIMAN SHARIFF
-#OBSERVATION: I have noticed that my windows 10 defender didnt detect it and got bypassed
+#OBSERVATION: I have noticed that my windows 10 defender didn't detect it and got bypassed
  
 #NOTE:THIS IS JUST FOR EDUCATIONAL PURPOSES,AS I HAVE PASSION IN CYBER SECURITY I HAVE JUST MADE THIS PROTOTYPE KEYLOGGER AS A POV FROM THE RED TEAM TO FIND LOOPHOLES IN DETECTION OF KEYLOGGER BY  ANTIVIRUS
+#NOte:This is just for my educational purposes and I Aiman Shariff im not responsible for ny misuse of this code..
 
+#WHY ?: This is to detect loopholes in antiviruses and help them configure the bugs/loopholes..
 
 #The keystokes are recorded in the terminal when the file is running in background..
 
