@@ -24,7 +24,7 @@ print('''
 import keyboard
 
 def on_press(event):
-    print(event.name, "pressed")
+    print(event.name, "pressed") #here the letter typed,is getting printed...
 
 def on_release(event):
     if event.name == "esc":
